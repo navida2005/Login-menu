@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="429.0" prefWidth="465.0" spacing="20.0" style="-fx-background-color: #00FFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="org.example.login.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <AnchorPane prefHeight="440.0" prefWidth="425.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="447.0" stroke="BLACK" strokeType="INSIDE" width="453.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11999999731779099" green="0.9520034193992615" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Label layoutX="40.0" layoutY="156.0" prefHeight="26.0" prefWidth="72.0" text="Username :">
+               <font>
+                  <Font name="Gobold Uplow" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="242.0" text="Password :">
+               <font>
+                  <Font name="Gobold Uplow" size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="112.0" layoutY="156.0" prefHeight="26.0" prefWidth="218.0" />
+            <TextField layoutX="112.0" layoutY="239.0" prefHeight="26.0" prefWidth="218.0" />
+            <Button layoutX="184.0" layoutY="309.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="86.0" text="Login" />
+            <Label alignment="CENTER" layoutX="142.0" layoutY="46.0" prefHeight="65.0" prefWidth="159.0" text="Login Window">
+               <font>
+                  <Font name="Gobold" size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.23515439429928742" startX="0.3752969121140142" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.29899999499320984" green="0.45346230268478394" blue="0.6499999761581421" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.29899999499320984" green="0.45346230268478394" blue="0.6499999761581421" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.4817073170731707">
+                           <color>
+                              <Color red="0.08771929889917374" green="0.5438596606254578" blue="0.7894737124443054" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.29899999499320984" green="0.6499999761581421" blue="0.5813624858856201" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
